@@ -1,0 +1,56 @@
+body{
+    background: black;
+    color: #fff;
+    font-family:'Ubuntu', sans-serif;
+    
+    letter-spacing: 2px;
+}
+
+.profile{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25PX;
+    height: 33vh;
+    max-width:50vh;
+
+    
+    
+}
+
+img{
+    border-radius: 50px;
+    
+}
+
+.name{
+    text-align: center;
+    padding: 30px;
+    font-size: 50px;
+}
+
+.links{
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid white;
+    border-width: 2px;
+    border-radius: 40px;
+    background-color: white;
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    transition: color 1s;
+    font-size: 20px;
+}
+
+a:hover{
+    color: white;
+    background-color: black;
+}
